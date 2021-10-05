@@ -1,4 +1,4 @@
-puts "Bonjour, quelle est ta date de naissaasanc ?"
+puts "Bonjour, quelle est ta date de naissance ?"
 print "> "
 year_birth = gets.chomp.to_i
 puts year_birth
