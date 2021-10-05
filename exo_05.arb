@@ -1,0 +1,13 @@
+puts "Bonjour, donne-moi un nombre s'il-te-plaît ?"
+print "> "
+number = gets.chomp
+puts number
+
+number_int = number.to_i 
+
+number_int.times do 
+    puts "Salut, ça farte ?"
+end
+
+
+
