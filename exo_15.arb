@@ -1,0 +1,11 @@
+puts "Salut, bienvenue dans ma super pyramide ! Combien d'étages veux-tu ?"
+print "> "
+number = gets.chomp.to_i
+
+number.times do |i| # nombre de ligne 
+
+    i.times do # applique autant d'index i par caractère
+        print "#" # mon caractère à afficher 
+    end
+    puts "" # saut de ligne dans le terminal 
+end 
