@@ -1,0 +1,4 @@
+compteur = 10
+compteur.times do |i|
+    puts compteur - i
+end

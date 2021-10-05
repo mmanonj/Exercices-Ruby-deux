@@ -1,0 +1,13 @@
+puts "Hello, voici la liste de diffusion"
+
+adresse = [] # je déclare un tableau adresse 
+
+50.times do |i| # je boucle 50 fois pour avoir 50 adresses 
+    adresse << "jean.dupont#{i}@email.fr" # ajoute-moi ce texte dans le tableau
+end 
+
+adresse.length.times do |i|
+    if i % 2 == 0 # Méthode de calcul modulo. Dans ce cas, cela enverra uniquement les nombres pairs (multiple de 2)
+        puts adresse[i]
+    end
+end

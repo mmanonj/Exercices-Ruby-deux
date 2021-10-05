@@ -1,0 +1,14 @@
+puts "Quelle âge as-tu ?"
+print '>'
+age_actuelle = gets.chomp.to_i
+puts age_actuelle
+
+
+age_actuelle.times do |i|
+	
+    if  age_actuelle - i == i 
+        puts "Il y #{age_actuelle - i}, tu avais la moitié de l'âge que tu as aujourd'hui"
+    else
+        puts " Il y a #{age_actuelle - i} ans : Tu avais #{i} ans"
+    end
+end

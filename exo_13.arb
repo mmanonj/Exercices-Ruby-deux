@@ -1,0 +1,9 @@
+puts "Hello, voici la liste de diffusion"
+
+adresse = [] # je déclare un tableau 
+
+50.times do |i| # je boucle 50 fois 
+    adresse << "jean.dupont#{i}@email.fr" # ajoute-moi ce texte dans le tableau
+end 
+
+print adresse # affiche-moi le tableau
