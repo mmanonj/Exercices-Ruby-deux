@@ -6,7 +6,7 @@ puts year_birth
 nombre_annee = 2021 - year_birth
 
 nombre_annee.times do |i|
-    puts " Année #{year_birth + i} : Tu avais #{year_birth + i} an(s)" 
+    puts " Année #{year_birth + i} : Tu avais #{i} an(s)" 
 end 
 
 
