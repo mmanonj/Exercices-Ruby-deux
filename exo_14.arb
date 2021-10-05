@@ -1,8 +1,8 @@
 puts "Hello, voici la liste de diffusion"
 
-adresse = [] # je déclare un tableau 
+adresse = [] # je déclare un tableau adresse 
 
-50.times do |i| # je boucle 50 fois 
+50.times do |i| # je boucle 50 fois pour avoir 50 adresses 
     adresse << "jean.dupont#{i}@email.fr" # ajoute-moi ce texte dans le tableau
 end 
 
