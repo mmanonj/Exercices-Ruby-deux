@@ -4,8 +4,11 @@ number = gets.chomp.to_i
 
 number.times do |i| # nombre de ligne 
 
+    (number-i).times do |k|
+        print " " # mettre un espace 
+    end
     i.times do # applique autant d'index i par caractère
-        print "#" # mon caractère à afficher sns faire de retour à la ligne 
+        print "#" # mon caractère à afficher 
     end
     puts "" # saut de ligne dans le terminal 
 end 
