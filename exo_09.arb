@@ -1,0 +1,10 @@
+puts "Bonjour, quelle est ta date de naissaasanc ?"
+print "> "
+year_birth = gets.chomp.to_i
+puts year_birth
+
+nombre_annee = 2021 - year_birth
+
+nombre_annee.times do |i|
+    puts " Année #{year_birth + i}" 
+end 
