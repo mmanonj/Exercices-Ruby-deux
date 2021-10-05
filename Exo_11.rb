@@ -1,14 +1,10 @@
-puts "En quelle année es tu né ?"
+puts "Quel âge as-tu ?"
 print "> "
-year = gets.chomp
+year = gets.chomp.to_i
 
-year_int =year.to_i
+y.times do |i|
+ puts "Année #{year-i} : Il y a #{2021-i} ans, tu avais #{2021-2019} ans"
 
+end 
 
-
-"Il y a #{2021-y} ans, tu avais #{y-year_int} ans".
-
-
-year_int.times do |i|
-    puts i
-   end 
+   
